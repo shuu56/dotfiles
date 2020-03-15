@@ -29,3 +29,6 @@ setopt no_beep                # ビープ音を消す
 autoload -Uz history-search-end
 zle -N history-beginning-search-backward-end history-search-end
 zle -N history-beginning-search-forward-end history-search-end
+
+alias .commit='sh ~/dotfiles/.scripts/git-add-commit-push.sh >/dev/null 2>&1'
+alias .vs-ext='sh ~/dotfiles/.scripts/vscode-extention.sh'
