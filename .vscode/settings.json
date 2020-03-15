@@ -1,4 +1,9 @@
 {
     "timeline.showView": true,
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
+    "workbench.iconTheme": "vscode-icons",
+    "files.insertFinalNewline": true,
+    "editor.renderControlCharacters": true,
+    "terminal.integrated.copyOnSelection": true,
+    "breadcrumbs.enabled": true
 }
